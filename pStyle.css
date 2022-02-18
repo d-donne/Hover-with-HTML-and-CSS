@@ -1,0 +1,151 @@
+/* link status colors */
+a:link {
+    color: rgb(247, 72, 174);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(255, 192, 192);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(45, 171, 209);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .about{font-family:monospace;
+    color: rgb(226, 12, 66);
+  }
+
+/*color change on hovering mouse  */
+  .aboutmat:hover {
+    background-color: rgb(206, 233, 233);
+    border-color: blue;
+  }
+  .hover:hover{
+    background-color: rgb(206, 233, 233);
+    border-color: blue;
+  }
+  img:hover {
+    opacity: 100%;
+  }
+ 
+
+
+
+body {
+    background-image: url("mcbkg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px 4px 0px;
+    border: 1px 7px 7px rgb(206, 234, 235);
+    border-style: none groove inset ; 
+    padding: 0px 5px 10 5px ;
+
+
+}
+
+.hgroup {
+  padding-top: 40px;
+  background-color: rgb(1, 54, 100)  
+
+}
+
+.hgroup h1, h2 {
+  display: flex;
+  align-content: center;
+}
+
+
+/* top navigation bar */
+.top-nav {
+  position: fixed;
+  
+}
+
+.top-nav li {
+  display: inline;
+  margin-right: 13px;
+  margin-top: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  background-color: rgb(128, 191, 221);
+  border-radius: 7px;
+  padding: 7px;
+
+}
+
+.top-nav li:hover {
+  background-color: rgb(43, 214, 226);
+  border: 2px solid blue;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+
+
+.read {
+    background-color: rgba(206, 233, 233, 0.685);
+    max-width: fit-content;
+    border: 2px solid;
+    border-style: groove;
+
+
+}
+
+img {
+  opacity: 80%;
+  margin-left:3px;
+  
+}
+
+
+.matsect {
+  display: flex;
+  flex-direction: row;
+
+
+
+}
+
+.aboutmat {
+  width: 25em ;
+  margin-left: 10px;
+  margin-right: 2px;
+  padding: 0px 5px;
+
+}
+
+.poem{
+  display: flex;
+  max-width: fit-content;
+  padding: 2px 7px;
+}
+
+.frame {
+  display: flex;
+}
+
+.para-space {
+  margin-bottom: 50em;
+  padding: 3px; 
+}
+
+dl {
+    list-style-type: disc;
+}
+
+.foot {
+  background-color: rgb(1, 54, 100);
+  padding-bottom: 10px;
+  padding-top: 7px;
+}
